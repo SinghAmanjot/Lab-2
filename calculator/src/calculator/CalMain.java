@@ -1,6 +1,7 @@
 package calculator;
 
 import java.util.Scanner;
+//changesss
 
 public class CalMain {
 
@@ -27,7 +28,7 @@ public class CalMain {
 
         switch(operator)
         {
-            case '+':
+            case '*':
             	output = num1 + num2;
                 break;
 
@@ -35,7 +36,7 @@ public class CalMain {
             	output = num1 - num2;
                 break;
 
-            case '*':
+            case '+':
             	output = num1 * num2;
                 break;
 
@@ -43,10 +44,7 @@ public class CalMain {
             	output = num1 / num2;
                 break;
 
-            /* If user enters any other operator or char apart from
-             * +, -, * and /, then display an error message to user
-             * 
-             */
+           
             default:
                 System.out.printf("You have entered wrong operator");
                 return;
